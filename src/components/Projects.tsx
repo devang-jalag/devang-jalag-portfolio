@@ -16,7 +16,7 @@ const projects = [
       "Built an immutable note version-history system that snapshots full note state to DynamoDB, capped at MAX_VERSIONS via Lambda env var, paired with a UUID-hex share-token system."
     ],
     tags: ["AWS Lambda", "DynamoDB", "Terraform", "CloudFront"],
-    links: { github: "#" }
+    links: { github: "#contact" }
   },
   {
     title: "DalParkAid",
@@ -27,7 +27,7 @@ const projects = [
       "Maintained cross-client consistency across four concurrent Firestore onSnapshot subscriptions using atomic read-modify-write transactions for community vote counts."
     ],
     tags: ["React Native", "Firebase", "Algorithms", "Expo"],
-    links: { github: "#" }
+    links: { github: "#contact" }
   },
   {
     title: "Interactive World Map",
@@ -38,7 +38,7 @@ const projects = [
       "Configured deterministic 30-color palette assignment with etag cache-busting in Terraform to ensure zero stale-asset serving on deployments."
     ],
     tags: ["Leaflet.js", "JavaScript", "Terraform", "CloudFront"],
-    links: { github: "#" }
+    links: { github: "#contact", external: "https://d3rfup3qdmix7x.cloudfront.net/" }
   },
   {
     title: "SecureShare",
@@ -49,7 +49,7 @@ const projects = [
       "Designed an ephemeral ECS Fargate janitor triggered by EventBridge scanning DynamoDB for expired entries and issuing targeted S3 deletions."
     ],
     tags: ["AWS Fargate", "Cognito", "S3", "EventBridge"],
-    links: { github: "#", external: "#" }
+    links: { github: "#contact", external: "#contact" }
   },
   {
     title: "DalOverflow",
@@ -60,7 +60,7 @@ const projects = [
       "Designed a reusable JWT Flask decorator supporting dual API/session auth routing; applied optimistic concurrency control on question edits returning HTTP 409 Conflict."
     ],
     tags: ["Flask", "PostgreSQL", "Google Gemini API", "Security"],
-    links: { github: "#", external: "#" }
+    links: { github: "#contact", external: "#contact" }
   },
   {
     title: "Distributed DBMS Prototype",
@@ -71,7 +71,7 @@ const projects = [
       "Built a custom multi-client TCP database server with wound-wait deadlock detection, per-session Thread dispatch, and a B+ tree index layer for range queries."
     ],
     tags: ["Java", "Distributed Systems", "Concurrency", "Sockets"],
-    links: { github: "#" }
+    links: { github: "#contact" }
   }
 ];
 
