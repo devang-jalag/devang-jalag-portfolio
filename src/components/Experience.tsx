@@ -11,9 +11,10 @@ const experiences = [
     location: "Surat, India",
     period: "Jan 2025 - Apr 2025",
     description: [
-      "Architected a 2-module NestJS 11 REST API (User, Lottery) with TypeORM + MySQL, using a shared DataSource with autoLoadEntities: true — exposing 10 parameterized CRUD endpoints with clean module separation for independent testability.",
-      "Applied COALESCE-based SQL partial-update pattern in NestJS TypeORM service — enabling atomic field-selective mutations via a single parameterized query, eliminating over-write risk on nullable optional fields, using TypeORM 0.3 and MySQL 8.",
-      "Hardened user credential handling via bcrypt hashing (10 salt rounds) and pre-wired @nestjs/jwt + passport-jwt scaffolding — establishing a secure auth foundation ready for JWT token issuance without refactoring the service layer, using NestJS 11 and bcrypt 5.1."
+      "Engineered a cross-platform Flutter mobile application, improving UI rendering speed and session retention via advanced network image caching and GetStorage-based credential management.",
+      "Architected a 2-module NestJS 11 REST API with TypeORM and MySQL, applying a COALESCE-based SQL partial-update pattern to enable atomic field-selective mutations and eliminate overwrite risks.",
+      "Engineered complex MongoDB aggregation pipelines to power a dynamic user preference matching system, comparing multi-dimensional traits (interests, values, communication styles) across user cohorts.",
+      "Implemented robust request validation using NestJS DTOs and custom pipes, alongside secure DataSource-driven authentication flows hardened by bcrypt hashing."
     ]
   }
 ];
