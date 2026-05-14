@@ -11,9 +11,9 @@ const experiences = [
     location: "Surat, India",
     period: "Jan 2025 - Apr 2025",
     description: [
-      "Engineered a full-stack mobile lottery application, improving UI rendering speed and session retention, by developing a cross-platform Flutter frontend integrated with GetStorage and advanced image caching techniques.",
-      "Accelerated lottery matching logic and result processing workflows, reducing data retrieval latency by ~25%, by architecting robust NestJS REST APIs and implementing complex MongoDB aggregation pipelines alongside MySQL schemas.",
-      "Strengthened system architecture and API request validation, ensuring stable data handoffs across backend services, by implementing NestJS Data Transfer Objects (DTOs), validation pipes, and secure authentication flows."
+      "Architected a 2-module NestJS 11 REST API (User, Lottery) with TypeORM + MySQL, using a shared DataSource with autoLoadEntities: true — exposing 10 parameterized CRUD endpoints with clean module separation for independent testability.",
+      "Applied COALESCE-based SQL partial-update pattern in NestJS TypeORM service — enabling atomic field-selective mutations via a single parameterized query, eliminating over-write risk on nullable optional fields, using TypeORM 0.3 and MySQL 8.",
+      "Hardened user credential handling via bcrypt hashing (10 salt rounds) and pre-wired @nestjs/jwt + passport-jwt scaffolding — establishing a secure auth foundation ready for JWT token issuance without refactoring the service layer, using NestJS 11 and bcrypt 5.1."
     ]
   }
 ];
