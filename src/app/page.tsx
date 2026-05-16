@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
+import WorkInProgress from "@/components/WorkInProgress";
 import Skills from "@/components/Skills";
 import Contact from "@/components/Contact";
 
@@ -20,11 +21,14 @@ export default function Home() {
             <a href="#projects" className="text-slate-300 hover:text-neon-teal transition-colors">
               <span className="text-electric-blue">02.</span> Work
             </a>
+            <a href="#labs" className="text-slate-300 hover:text-neon-teal transition-colors">
+              <span className="text-electric-blue">03.</span> Labs
+            </a>
             <a href="#skills" className="text-slate-300 hover:text-neon-teal transition-colors">
-              <span className="text-electric-blue">03.</span> Skills
+              <span className="text-electric-blue">04.</span> Skills
             </a>
             <a href="#contact" className="text-slate-300 hover:text-neon-teal transition-colors">
-              <span className="text-electric-blue">04.</span> Contact
+              <span className="text-electric-blue">05.</span> Contact
             </a>
           </div>
         </div>
@@ -34,6 +38,7 @@ export default function Home() {
         <Hero />
         <Experience />
         <Projects />
+        <WorkInProgress />
         <Skills />
         <Contact />
       </div>
